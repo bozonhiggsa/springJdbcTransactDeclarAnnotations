@@ -5,9 +5,6 @@ import org.springframework.jdbc.core.RowMapper;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * Created by Garik on 31.10.2017.
- */
 public class ProjectMapper implements RowMapper<Project> {
 
     public Project mapRow(ResultSet rs, int rowNum) throws SQLException {
